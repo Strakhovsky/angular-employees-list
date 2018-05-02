@@ -1,0 +1,81 @@
+/* HeroesComponent's private CSS styles */
+
+/* list column style */
+.list-of-employee {
+    width: 300px;
+    float: left;
+    border-right: 1px solid #000;
+    margin-left: 60px; 
+}
+.information-about-employee {
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+}
+.info-emp {
+  margin:8px 0 8px 0;
+}
+
+h2 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 150%;
+}
+h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 120%;
+  border-bottom: 1px solid #444;
+  margin-right: 200px;
+  padding-bottom: 3px;
+}
+
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+  }
+  .employees {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .employees li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  .employees li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+  }
+  .employees li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+  .employees .text {
+    position: relative;
+    top: -3px;
+  }
+  .employees .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #607D8B;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
